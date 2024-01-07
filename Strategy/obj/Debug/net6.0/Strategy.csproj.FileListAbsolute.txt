@@ -1,0 +1,15 @@
+/Users/tihon/RiderProjects/DesignPatterns/Strategy/bin/Debug/net6.0/Strategy
+/Users/tihon/RiderProjects/DesignPatterns/Strategy/bin/Debug/net6.0/Strategy.deps.json
+/Users/tihon/RiderProjects/DesignPatterns/Strategy/bin/Debug/net6.0/Strategy.runtimeconfig.json
+/Users/tihon/RiderProjects/DesignPatterns/Strategy/bin/Debug/net6.0/Strategy.dll
+/Users/tihon/RiderProjects/DesignPatterns/Strategy/bin/Debug/net6.0/Strategy.pdb
+/Users/tihon/RiderProjects/DesignPatterns/Strategy/obj/Debug/net6.0/Strategy.csproj.AssemblyReference.cache
+/Users/tihon/RiderProjects/DesignPatterns/Strategy/obj/Debug/net6.0/Strategy.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tihon/RiderProjects/DesignPatterns/Strategy/obj/Debug/net6.0/Strategy.AssemblyInfoInputs.cache
+/Users/tihon/RiderProjects/DesignPatterns/Strategy/obj/Debug/net6.0/Strategy.AssemblyInfo.cs
+/Users/tihon/RiderProjects/DesignPatterns/Strategy/obj/Debug/net6.0/Strategy.csproj.CoreCompileInputs.cache
+/Users/tihon/RiderProjects/DesignPatterns/Strategy/obj/Debug/net6.0/Strategy.dll
+/Users/tihon/RiderProjects/DesignPatterns/Strategy/obj/Debug/net6.0/refint/Strategy.dll
+/Users/tihon/RiderProjects/DesignPatterns/Strategy/obj/Debug/net6.0/Strategy.pdb
+/Users/tihon/RiderProjects/DesignPatterns/Strategy/obj/Debug/net6.0/Strategy.genruntimeconfig.cache
+/Users/tihon/RiderProjects/DesignPatterns/Strategy/obj/Debug/net6.0/ref/Strategy.dll
