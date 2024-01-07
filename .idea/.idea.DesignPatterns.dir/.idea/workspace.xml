@@ -8,13 +8,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a271eef6-7955-4ee4-a7cf-a023cc16b089" name="Changes" comment="strategy pattern">
-      <change afterPath="$PROJECT_DIR$/Observer/IObservable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Observer/IObserver.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Observer/LSDScreen.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Observer/SmartPhoneScreen.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Observer/WeatherStation.cs" afterDir="false" />
+    <list default="true" id="a271eef6-7955-4ee4-a7cf-a023cc16b089" name="Changes" comment="observer pattern">
+      <change afterPath="$PROJECT_DIR$/Observer/IDisplay.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DesignPatterns.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DesignPatterns.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Observer/LSDScreen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Observer/LSDScreen.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Observer/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Observer/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Observer/SmartPhoneScreen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Observer/SmartPhoneScreen.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +24,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Observer/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Strategy/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -114,7 +114,7 @@
       <workItem from="1704633196752" duration="296000" />
       <workItem from="1704639607292" duration="218000" />
       <workItem from="1704639964653" duration="14000" />
-      <workItem from="1704640017503" duration="4334000" />
+      <workItem from="1704640017503" duration="5441000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <option name="closed" value="true" />
@@ -132,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704641183696</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="observer pattern">
+      <option name="closed" value="true" />
+      <created>1704646611923</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704646611923</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +162,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="test commit" />
     <MESSAGE value="strategy pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="strategy pattern" />
+    <MESSAGE value="observer pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="observer pattern" />
   </component>
 </project>

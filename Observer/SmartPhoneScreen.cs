@@ -1,8 +1,11 @@
 namespace Observer;
 
-public class SmartPhoneScreen : IObserver
+public class SmartPhoneScreen : IObserver, IDisplay
 {
     private readonly WeatherStation _weatherStation;
+    private double _degrees;
+    private double _pressure;
+    private string? _weather_description;
 
     public SmartPhoneScreen(WeatherStation weatherStation)
     {
@@ -14,7 +17,14 @@ public class SmartPhoneScreen : IObserver
         var degrees = _weatherStation.GetDegrees();
         var pressure = _weatherStation.GetPressure();
         var description = _weatherStation.GetWeatherDescription();
+        _degrees = degrees;
+        _pressure = pressure;
+        _weather_description = description;
+    }
+
+    public void Display()
+    {
         Console.WriteLine($"------------------------------------------");
-        Console.WriteLine($"degrees: {degrees}\npressure: {pressure}\ndescription: {description}\n");
+        Console.WriteLine($"degrees: {_degrees}\npressure: {_pressure}\ndescription: {_weather_description}\n");
     }
 }
