@@ -1,0 +1,15 @@
+/Users/tihon/RiderProjects/DesignPatterns/Decorator/bin/Debug/net6.0/Decorator
+/Users/tihon/RiderProjects/DesignPatterns/Decorator/bin/Debug/net6.0/Decorator.deps.json
+/Users/tihon/RiderProjects/DesignPatterns/Decorator/bin/Debug/net6.0/Decorator.runtimeconfig.json
+/Users/tihon/RiderProjects/DesignPatterns/Decorator/bin/Debug/net6.0/Decorator.dll
+/Users/tihon/RiderProjects/DesignPatterns/Decorator/bin/Debug/net6.0/Decorator.pdb
+/Users/tihon/RiderProjects/DesignPatterns/Decorator/obj/Debug/net6.0/Decorator.csproj.AssemblyReference.cache
+/Users/tihon/RiderProjects/DesignPatterns/Decorator/obj/Debug/net6.0/Decorator.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tihon/RiderProjects/DesignPatterns/Decorator/obj/Debug/net6.0/Decorator.AssemblyInfoInputs.cache
+/Users/tihon/RiderProjects/DesignPatterns/Decorator/obj/Debug/net6.0/Decorator.AssemblyInfo.cs
+/Users/tihon/RiderProjects/DesignPatterns/Decorator/obj/Debug/net6.0/Decorator.csproj.CoreCompileInputs.cache
+/Users/tihon/RiderProjects/DesignPatterns/Decorator/obj/Debug/net6.0/Decorator.dll
+/Users/tihon/RiderProjects/DesignPatterns/Decorator/obj/Debug/net6.0/refint/Decorator.dll
+/Users/tihon/RiderProjects/DesignPatterns/Decorator/obj/Debug/net6.0/Decorator.pdb
+/Users/tihon/RiderProjects/DesignPatterns/Decorator/obj/Debug/net6.0/Decorator.genruntimeconfig.cache
+/Users/tihon/RiderProjects/DesignPatterns/Decorator/obj/Debug/net6.0/ref/Decorator.dll
