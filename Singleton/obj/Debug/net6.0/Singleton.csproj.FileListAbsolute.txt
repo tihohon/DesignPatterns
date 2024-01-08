@@ -1,0 +1,15 @@
+/Users/tihon/RiderProjects/DesignPatterns/Singleton/bin/Debug/net6.0/Singleton
+/Users/tihon/RiderProjects/DesignPatterns/Singleton/bin/Debug/net6.0/Singleton.deps.json
+/Users/tihon/RiderProjects/DesignPatterns/Singleton/bin/Debug/net6.0/Singleton.runtimeconfig.json
+/Users/tihon/RiderProjects/DesignPatterns/Singleton/bin/Debug/net6.0/Singleton.dll
+/Users/tihon/RiderProjects/DesignPatterns/Singleton/bin/Debug/net6.0/Singleton.pdb
+/Users/tihon/RiderProjects/DesignPatterns/Singleton/obj/Debug/net6.0/Singleton.csproj.AssemblyReference.cache
+/Users/tihon/RiderProjects/DesignPatterns/Singleton/obj/Debug/net6.0/Singleton.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tihon/RiderProjects/DesignPatterns/Singleton/obj/Debug/net6.0/Singleton.AssemblyInfoInputs.cache
+/Users/tihon/RiderProjects/DesignPatterns/Singleton/obj/Debug/net6.0/Singleton.AssemblyInfo.cs
+/Users/tihon/RiderProjects/DesignPatterns/Singleton/obj/Debug/net6.0/Singleton.csproj.CoreCompileInputs.cache
+/Users/tihon/RiderProjects/DesignPatterns/Singleton/obj/Debug/net6.0/Singleton.dll
+/Users/tihon/RiderProjects/DesignPatterns/Singleton/obj/Debug/net6.0/refint/Singleton.dll
+/Users/tihon/RiderProjects/DesignPatterns/Singleton/obj/Debug/net6.0/Singleton.pdb
+/Users/tihon/RiderProjects/DesignPatterns/Singleton/obj/Debug/net6.0/Singleton.genruntimeconfig.cache
+/Users/tihon/RiderProjects/DesignPatterns/Singleton/obj/Debug/net6.0/ref/Singleton.dll
