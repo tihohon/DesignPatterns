@@ -7,6 +7,7 @@
     <projectFile>Facade/Facade.csproj</projectFile>
     <projectFile>Factory/Factory.csproj</projectFile>
     <projectFile>Observer/Observer.csproj</projectFile>
+    <projectFile>Proxy/Proxy.csproj</projectFile>
     <projectFile>Singleton/Singleton.csproj</projectFile>
     <projectFile>Strategy/Strategy.csproj</projectFile>
   </component>
@@ -14,11 +15,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a271eef6-7955-4ee4-a7cf-a023cc16b089" name="Changes" comment="adapter мне очень грустно что я сам не справился">
-      <change afterPath="$PROJECT_DIR$/Facade/ComputerFacade.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facade/Cpu.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facade/HardDisk.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facade/Ram.cs" afterDir="false" />
+    <list default="true" id="a271eef6-7955-4ee4-a7cf-a023cc16b089" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Proxy/IKnapClient.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proxy/KnapClient.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DesignPatterns.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DesignPatterns.dir/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +29,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Adapter/BirdAdapter.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Adapter/IToyDuck.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Adapter/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Command/bin/Debug/net6.0/Command.deps.json" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Command/bin/Debug/net6.0/Command.runtimeconfig.json" root0="SKIP_HIGHLIGHTING" />
@@ -40,9 +41,14 @@
     <setting file="file://$PROJECT_DIR$/Decorator/Logger/Logger.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Decorator/Logger/LoggerDecorator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Decorator/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Facade/Cpu.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Facade/HardDisk.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Facade/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Facade/Ram.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FactoryMethod/GodFactory.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FactoryMethod/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Observer/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Proxy/IKnapClient.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Strategy/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -61,35 +67,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Project.Adapter.executor": "Run",
-    ".NET Project.Command.executor": "Debug",
-    ".NET Project.Decorator.executor": "Debug",
-    ".NET Project.Factory.executor": "Run",
-    ".NET Project.FactoryMethod.executor": "Run",
-    ".NET Project.Observer.executor": "Run",
-    ".NET Project.Singleton.executor": "Run",
-    ".NET Project.Strategy.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Project.Adapter.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Project.Command.executor&quot;: &quot;Debug&quot;,
+    &quot;.NET Project.Decorator.executor&quot;: &quot;Debug&quot;,
+    &quot;.NET Project.Factory.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Project.FactoryMethod.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Project.Observer.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Project.Singleton.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Project.Strategy.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "/Users/tihon/Library/Application Support/JetBrains/Rider2023.3/resharper-host/DecompilerCache",
-      "/Users/tihon/Library/Application Support/JetBrains/Rider2023.3/resharper-host/SourcesCache",
-      "/Users/tihon/.local/share/Symbols/src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/Users/tihon/Library/Application Support/JetBrains/Rider2023.3/resharper-host/DecompilerCache&quot;,
+      &quot;/Users/tihon/Library/Application Support/JetBrains/Rider2023.3/resharper-host/SourcesCache&quot;,
+      &quot;/Users/tihon/.local/share/Symbols/src&quot;
     ]
   }
-}]]></component>
-  <component name="RunManager" selected=".NET Project.Adapter">
+}</component>
+  <component name="RunManager" selected=".NET Project.Proxy">
     <configuration name="Adapter" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -198,6 +204,24 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="Proxy" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Proxy/Proxy.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="Singleton" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -235,6 +259,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue=".NET Project.Proxy" />
       <item itemvalue=".NET Project.Adapter" />
       <item itemvalue=".NET Project.Facade" />
       <item itemvalue=".NET Project.Command" />
@@ -261,7 +286,9 @@
       <workItem from="1704720194966" duration="236000" />
       <workItem from="1704720458774" duration="682000" />
       <workItem from="1704726490517" duration="6692000" />
-      <workItem from="1704820696525" duration="2869000" />
+      <workItem from="1704820696525" duration="2923000" />
+      <workItem from="1704999662804" duration="1444000" />
+      <workItem from="1705838202101" duration="884000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <option name="closed" value="true" />
@@ -335,7 +362,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704822136671</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Facade какая-то хуйня если честно">
+      <option name="closed" value="true" />
+      <created>1704824387616</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1704824387616</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -376,7 +411,8 @@
     <MESSAGE value="Command" />
     <MESSAGE value="я устал всю эту хуйню комитить, откатывать мне лень, но больше не буду" />
     <MESSAGE value="adapter мне очень грустно что я сам не справился" />
-    <option name="LAST_COMMIT_MESSAGE" value="adapter мне очень грустно что я сам не справился" />
+    <MESSAGE value="Facade какая-то хуйня если честно" />
+    <option name="LAST_COMMIT_MESSAGE" value="Facade какая-то хуйня если честно" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
